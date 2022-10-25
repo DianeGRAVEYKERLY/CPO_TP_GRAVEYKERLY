@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package tp2_convertisseurobjet_gravey.kerly;
+ 
+import java.util.Scanner;
 
 /**
  *
@@ -20,12 +22,23 @@ public class TP2_ConvertisseurObjet_GRAVEYKERLY {
         System.out.println (thermometre.KelvinVersCelsius(23));
         thermometre.toString();
         
+        
         Convertisseur thermos = new Convertisseur ();
         thermos.CelsiusVersKelvin(34);
         thermos.KelvinVersCelsius(24);
         thermos.FarenheitVersCelsius(54);
         thermos.toString();
-        // TODO code application logic here
+        
+        
+        Scanner sc;
+        sc = new Scanner (System.in);
+        
+        System.out.println("Choisissez votre conversion: Si vous souhaitez convertir des celsius, tapez TC. Si vous souhaitez convertir des Kelvin, tapez TK. Si vous souhaitez convertir des Farenheit, tapez TF" );
+        //TODO code application logic here
+        ent a = sc.nextInt();
+        if a ==TC {
+            
+        }
     }
     
 }
