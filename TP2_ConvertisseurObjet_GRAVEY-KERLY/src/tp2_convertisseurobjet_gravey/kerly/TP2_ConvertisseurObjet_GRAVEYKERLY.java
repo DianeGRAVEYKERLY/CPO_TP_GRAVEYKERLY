@@ -37,6 +37,7 @@ public class TP2_ConvertisseurObjet_GRAVEYKERLY {
         //TODO code application logic here
         ent a = sc.nextInt();
         if a ==TC {
+            System.out.println("En quoi souhaitez vous convertir les celsius, tapez TK pour kelvin et TF pour Farenheit");
             
         }
     }
