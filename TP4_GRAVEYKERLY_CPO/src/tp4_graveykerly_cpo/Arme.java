@@ -18,5 +18,12 @@ niveauAttaque=i;
 
 
 }
+@Override
+public String toString() {
+String chaine_a_retourner;
+chaine_a_retourner = ("prenom :" + prenom +  "niveauAttaque:" + niveauAttaque);
+
+return chaine_a_retourner;
+}
     
 }
