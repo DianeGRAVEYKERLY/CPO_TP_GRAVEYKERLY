@@ -16,7 +16,10 @@ public class TP4_GRAVEYKERLY_CPO {
     public static void main(String[] args) {
         Epee premiereEpee= new Epee("excalibur", 7, 5);
         Epee deuxiemeEpee= new Epee ("durandal",5,6);
+        Baton premierBaton= new Baton ("chêne",4,5);
+        Baton deuxiemeBaton = new Baton ("charme", 5,6);
         
+                
         // TODO code application logic here
     }
     
