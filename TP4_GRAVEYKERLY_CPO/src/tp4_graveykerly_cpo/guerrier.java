@@ -4,19 +4,14 @@
  */
 package tp4_graveykerly_cpo;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author dia12
  */
-public class Vector {
-    ArrayList<Arme> Tab = new ArrayList<String> ();
-    Tab.add(premiereEpee);
-    Tab.add(deuxiemeEpee);
-    Tab.add(premierBaton);
-    Tab.add(deuxiemeBaton);
-    
-    
+public class guerrier extends personnage {
+    public guerrier( String m,int v){
+            super(m,v);
+  
+    }
     
 }
