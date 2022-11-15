@@ -14,6 +14,12 @@ public class Epee extends Arme {
     public Epee( String n,int i, int e){
             super(n,i);
     finesse = e;
+    
 }
+
+    public void setFinesse(int finesse) {
+        if (finesse<100);
+        this.finesse = finesse;
+    }
     
 }
